@@ -1,7 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
 import NYTProseMirrorEditor from './components/NYTProseMirrorEditor'
 
 const MyTest = () => {
@@ -14,6 +12,5 @@ const MyTest = () => {
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <MyTest />
-    {/* <App /> */}
   </React.StrictMode>,
 )
